@@ -20,6 +20,24 @@ nav{
     width: 100%;  
 }
 
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: #242635;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #34B0BE;
+    border-radius: 100vw;
+    width: 1px;
+    height: 1px;
+}
+
+
 nav label img{
    width: 20px;  
 }
